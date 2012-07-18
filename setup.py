@@ -4,8 +4,8 @@ from Cython.Distutils import build_ext
 import numpy
 import os
 
-#gco_directory = "../../tools/gco/"
-gco_directory = "C:/gc0-v3.0/src"
+gco_directory = "../../tools/gco/"
+#gco_directory = "C:/gc0-v3.0/src"
 gco_directory = os.path.realpath(gco_directory) 
 
 files = ['GCoptimization.cpp', 'graph.cpp', 'LinkedBlockList.cpp',
